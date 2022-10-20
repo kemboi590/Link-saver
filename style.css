@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    margin: 100px 100px;
+    background: grey;
+}
+
+button{
+    color: white;
+    background-color: darkolivegreen;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+input{
+    width: 20%;
+    height: 30px;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.my-ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+ul{
+    background-color: rgba(15, 201, 139, 0.322);
+    width: 40%;
+    border-radius: 10px;
+}
+
+li{
+    list-style: none;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+li a{
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
